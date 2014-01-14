@@ -28,9 +28,5 @@
               %a{href: '#about'} About
             %li
               %a{href: '#contact'} Contact
-    .container
-      - flash.each do |name, msg|
-        = content_tag :div, class: "alert alert-#{name == :error ? 'danger' : 'success' } alert-dismissable" do
-          %button.close{type: 'button', data: {dismiss: 'alert'}, aria: {hidden: 'true'} } &times;
-          = msg
+    .testapp
       = yield

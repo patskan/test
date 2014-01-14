@@ -1,17 +1,18 @@
 @import 'bootstrap';
 .big.box {
-	width: 1180px;
+	width: 1420px;
 	height: 268px;
 	overflow: hidden;
 	position: relative;
+	margin: 0 auto;
 }
-@media screen and (max-width: 1520px) {
+@media screen and (min-width: 1520px) {
    .big.box{width: 1420px;}
 }
-@media screen and (max-width: 1280px) {
+@media screen and (min-width: 1280px) and (max-width: 1519px){
    .big.box{width: 1180px;}
 }
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1279px) {
    .big.box{width: 940px;}
 }
 .casket {
