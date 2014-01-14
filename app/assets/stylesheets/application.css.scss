@@ -1,0 +1,62 @@
+@import 'bootstrap';
+.big.box {
+	width: 1180px;
+	height: 268px;
+	overflow: hidden;
+	position: relative;
+}
+@media screen and (max-width: 1520px) {
+   .big.box{width: 1420px;}
+}
+@media screen and (max-width: 1280px) {
+   .big.box{width: 1180px;}
+}
+@media screen and (max-width: 1024px) {
+   .big.box{width: 940px;}
+}
+.casket {
+	position: absolute;
+	height: 268px;
+	width: 9000px;
+}
+.image.info {
+	width: 460px;
+	height: 268px;
+	background: gray;
+	float: left;
+}
+.mini.box {
+	width: 220px;
+	margin-left: 20px;
+	float: left;
+}
+.small.info {
+	width: 220px;
+	height: 124px;
+	background: gray;
+}
+.small.info.one {
+	margin-bottom: 20px;
+}
+.key {
+	position: absolute;
+	text-decoration: none;
+	top: 50%;
+	margin-top: -7px;
+	color: black;
+	cursor: pointer;
+}
+a.left {
+	left: 0px;
+}
+a.left:hover {
+	opacity: 0.6;
+	text-decoration: none;
+}
+a.right {
+	right: 0px;
+}
+a.right:hover {
+	opacity: 0.6;
+	text-decoration: none;
+}
